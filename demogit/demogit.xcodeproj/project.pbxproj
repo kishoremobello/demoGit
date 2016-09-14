@@ -16,6 +16,8 @@
 		03568A611D8929C50072687F /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 03568A5F1D8929C50072687F /* LaunchScreen.storyboard */; };
 		03568A6C1D8929C50072687F /* demogitTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 03568A6B1D8929C50072687F /* demogitTests.m */; };
 		03568A771D8929C50072687F /* demogitUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 03568A761D8929C50072687F /* demogitUITests.m */; };
+		EE5B9A921D893CB0008E3559 /* SecondViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = EE5B9A911D893CB0008E3559 /* SecondViewController.m */; };
+		EE5B9A941D893D4E008E3559 /* logo.png in Resources */ = {isa = PBXBuildFile; fileRef = EE5B9A931D893D4E008E3559 /* logo.png */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -53,6 +55,9 @@
 		03568A721D8929C50072687F /* demogitUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = demogitUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		03568A761D8929C50072687F /* demogitUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = demogitUITests.m; sourceTree = "<group>"; };
 		03568A781D8929C50072687F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		EE5B9A901D893CB0008E3559 /* SecondViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SecondViewController.h; sourceTree = "<group>"; };
+		EE5B9A911D893CB0008E3559 /* SecondViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SecondViewController.m; sourceTree = "<group>"; };
+		EE5B9A931D893D4E008E3559 /* logo.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = logo.png; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -103,11 +108,14 @@
 		03568A4D1D8929C40072687F /* demogit */ = {
 			isa = PBXGroup;
 			children = (
+				03568A571D8929C50072687F /* Main.storyboard */,
 				03568A511D8929C50072687F /* AppDelegate.h */,
 				03568A521D8929C50072687F /* AppDelegate.m */,
 				03568A541D8929C50072687F /* ViewController.h */,
 				03568A551D8929C50072687F /* ViewController.m */,
-				03568A571D8929C50072687F /* Main.storyboard */,
+				EE5B9A901D893CB0008E3559 /* SecondViewController.h */,
+				EE5B9A911D893CB0008E3559 /* SecondViewController.m */,
+				EE5B9A931D893D4E008E3559 /* logo.png */,
 				03568A5D1D8929C50072687F /* Assets.xcassets */,
 				03568A5F1D8929C50072687F /* LaunchScreen.storyboard */,
 				03568A621D8929C50072687F /* Info.plist */,
@@ -246,6 +254,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				EE5B9A941D893D4E008E3559 /* logo.png in Resources */,
 				03568A611D8929C50072687F /* LaunchScreen.storyboard in Resources */,
 				03568A5E1D8929C50072687F /* Assets.xcassets in Resources */,
 				03568A591D8929C50072687F /* Main.storyboard in Resources */,
@@ -273,6 +282,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				EE5B9A921D893CB0008E3559 /* SecondViewController.m in Sources */,
 				03568A561D8929C50072687F /* ViewController.m in Sources */,
 				03568A5C1D8929C50072687F /* demogit.xcdatamodeld in Sources */,
 				03568A531D8929C50072687F /* AppDelegate.m in Sources */,
@@ -502,6 +512,7 @@
 				03568A7D1D8929C50072687F /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		03568A7E1D8929C50072687F /* Build configuration list for PBXNativeTarget "demogitTests" */ = {
 			isa = XCConfigurationList;
@@ -510,6 +521,7 @@
 				03568A801D8929C50072687F /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		03568A811D8929C50072687F /* Build configuration list for PBXNativeTarget "demogitUITests" */ = {
 			isa = XCConfigurationList;
@@ -518,6 +530,7 @@
 				03568A831D8929C50072687F /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 
