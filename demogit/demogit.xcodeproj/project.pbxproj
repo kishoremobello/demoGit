@@ -16,6 +16,7 @@
 		03568A611D8929C50072687F /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 03568A5F1D8929C50072687F /* LaunchScreen.storyboard */; };
 		03568A6C1D8929C50072687F /* demogitTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 03568A6B1D8929C50072687F /* demogitTests.m */; };
 		03568A771D8929C50072687F /* demogitUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 03568A761D8929C50072687F /* demogitUITests.m */; };
+		03568A861D8937990072687F /* FirstViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 03568A851D8937990072687F /* FirstViewController.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -53,6 +54,8 @@
 		03568A721D8929C50072687F /* demogitUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = demogitUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		03568A761D8929C50072687F /* demogitUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = demogitUITests.m; sourceTree = "<group>"; };
 		03568A781D8929C50072687F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		03568A841D8937990072687F /* FirstViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = FirstViewController.h; path = FirstViewController/FirstViewController.h; sourceTree = "<group>"; };
+		03568A851D8937990072687F /* FirstViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = FirstViewController.m; path = FirstViewController/FirstViewController.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -107,6 +110,8 @@
 				03568A521D8929C50072687F /* AppDelegate.m */,
 				03568A541D8929C50072687F /* ViewController.h */,
 				03568A551D8929C50072687F /* ViewController.m */,
+				03568A841D8937990072687F /* FirstViewController.h */,
+				03568A851D8937990072687F /* FirstViewController.m */,
 				03568A571D8929C50072687F /* Main.storyboard */,
 				03568A5D1D8929C50072687F /* Assets.xcassets */,
 				03568A5F1D8929C50072687F /* LaunchScreen.storyboard */,
@@ -275,6 +280,7 @@
 			files = (
 				03568A561D8929C50072687F /* ViewController.m in Sources */,
 				03568A5C1D8929C50072687F /* demogit.xcdatamodeld in Sources */,
+				03568A861D8937990072687F /* FirstViewController.m in Sources */,
 				03568A531D8929C50072687F /* AppDelegate.m in Sources */,
 				03568A501D8929C40072687F /* main.m in Sources */,
 			);
