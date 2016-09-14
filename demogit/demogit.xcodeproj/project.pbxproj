@@ -10,7 +10,6 @@
 		03568A501D8929C40072687F /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 03568A4F1D8929C40072687F /* main.m */; };
 		03568A531D8929C50072687F /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 03568A521D8929C50072687F /* AppDelegate.m */; };
 		03568A561D8929C50072687F /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 03568A551D8929C50072687F /* ViewController.m */; };
-		03568A591D8929C50072687F /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 03568A571D8929C50072687F /* Main.storyboard */; };
 		03568A5C1D8929C50072687F /* demogit.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 03568A5A1D8929C50072687F /* demogit.xcdatamodeld */; };
 		03568A5E1D8929C50072687F /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 03568A5D1D8929C50072687F /* Assets.xcassets */; };
 		03568A611D8929C50072687F /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 03568A5F1D8929C50072687F /* LaunchScreen.storyboard */; };
@@ -43,7 +42,6 @@
 		03568A521D8929C50072687F /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
 		03568A541D8929C50072687F /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
 		03568A551D8929C50072687F /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
-		03568A581D8929C50072687F /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		03568A5B1D8929C50072687F /* demogit.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = demogit.xcdatamodel; sourceTree = "<group>"; };
 		03568A5D1D8929C50072687F /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		03568A601D8929C50072687F /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
@@ -118,6 +116,7 @@
 				03568A621D8929C50072687F /* Info.plist */,
 				03568A5A1D8929C50072687F /* demogit.xcdatamodeld */,
 				03568A4E1D8929C40072687F /* Supporting Files */,
+				EE5B9A951D895C50008E3559 /* Storyboard.storyboard */,
 			);
 			path = demogit;
 			sourceTree = "<group>";
@@ -251,9 +250,10 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				EE5B9A941D893D4E008E3559 /* logo.png in Resources */,
+				EE5B9A961D895C50008E3559 /* Storyboard.storyboard in Resources */,
 				03568A611D8929C50072687F /* LaunchScreen.storyboard in Resources */,
 				03568A5E1D8929C50072687F /* Assets.xcassets in Resources */,
-				03568A591D8929C50072687F /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -278,6 +278,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				EE5B9A921D893CB0008E3559 /* SecondViewController.m in Sources */,
 				03568A561D8929C50072687F /* ViewController.m in Sources */,
 				03568A5C1D8929C50072687F /* demogit.xcdatamodeld in Sources */,
 				03568A861D8937990072687F /* FirstViewController.m in Sources */,
@@ -318,14 +319,6 @@
 /* End PBXTargetDependency section */
 
 /* Begin PBXVariantGroup section */
-		03568A571D8929C50072687F /* Main.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				03568A581D8929C50072687F /* Base */,
-			);
-			name = Main.storyboard;
-			sourceTree = "<group>";
-		};
 		03568A5F1D8929C50072687F /* LaunchScreen.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
@@ -508,6 +501,7 @@
 				03568A7D1D8929C50072687F /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		03568A7E1D8929C50072687F /* Build configuration list for PBXNativeTarget "demogitTests" */ = {
 			isa = XCConfigurationList;
@@ -516,6 +510,7 @@
 				03568A801D8929C50072687F /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		03568A811D8929C50072687F /* Build configuration list for PBXNativeTarget "demogitUITests" */ = {
 			isa = XCConfigurationList;
@@ -524,6 +519,7 @@
 				03568A831D8929C50072687F /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 
